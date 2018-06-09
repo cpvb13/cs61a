@@ -1,1 +1,33 @@
-I love bash scripting.
+Script started on Sat Jun  9 00:04:32 2018
+[?1034hbash-3.2$ ls
+answers.txt
+bash-3.2$ pwd
+/Users/kk/Desktop/CaitREPO
+bash-3.2$ touch conf.txt
+bash-3.2$ echo ""I" "l"o"v"e" "b"a"s"h" "s"c"r"i"p"t"i"n"g"."[C>>conf.txt
+bash-3.2$ touch text)[K_chunk1
+bash-3.2$ touch text_chunk1.txt
+bash-3.2$ rm text_chunk1
+bash-3.2$ echo ""D"o" "y"o"u" "[1P"[1P"[1P"[1P"[1P"[1P"[1P"A"[1P"I" "l"o"v"e" "P"r"i"n"c"e" "A"L"[1P"l"i"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"A" "w"h"o"l"e" "n"e"w" "w"o"r"l"d"[C [1P[1P[1P[1P[1P[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@M[1@a[1@g[1@i[1@c[1@ [1@C[1@a[1@r[1@p[1@e[1@t[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@c[1@ [1@C[1@a[1@r[1@p[1@e[1@t[1@ [1@r[1@i[1P[1P[1@R[1@i[1@d[1@e[1@ [1P[1@e[C[1P[C[C > > [C t e x t _ c h u n k 1 . t x t 
+bash-3.2$ cp [K[K[Kcp text_chunk1.txt text_chunk2.txt
+bash-3.2$ echo[K[K[K[Kecho ""O"l"a"r"[1P"f"[C >> r[Ktext_chunk2.txt
+bash-3.2$ gitst[K[K status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   answers.txt[m
+	[31mmodified:   conf.txt[m
+	[31mmodified:   text_chunk2.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m../.localized[m
+	[31m.gitignore[m
+	[31mtext_chunk1.txt[m
+	[31m../Ignore/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ git add text_chunk1.t
