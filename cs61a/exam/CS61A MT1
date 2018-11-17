@@ -1,0 +1,19 @@
+def rect(area, perimeter):
+    side = 1
+
+    while side * side <= area:
+
+
+        other = round(perimeter/2-side)
+
+
+        if side*other==area:
+
+
+            return max(side,other)
+
+
+        side = side + 1
+
+
+    return False
